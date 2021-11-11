@@ -1,0 +1,78 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER*/
+
+/*Barra Superior*/
+#barra-superior{
+    background-color: rgba(34, 34, 34, 1);
+    color: rgb(255, 255, 255);
+}
+
+/*Menú Principal*/
+
+#menu-principal{
+    background-color: rgba(240, 168, 62, 1);
+    color: rgb(255, 255, 255);
+}
+
+.nav-huella{
+    color: rgb(255, 255, 255);
+    margin-right: 8px;
+}
+
+/*MAIN*/
+
+/*Sección Banner*/
+.banner-img{
+    background-image: url(../assets/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner-text h2{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(60, 35, 19, 1);
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+    margin-right: 20px;
+}
+
+.banner-text p{
+    font-size: 16px;
+    color: rgba(60, 35, 19, 1);
+    text-align: center;
+    margin-right: 20px;
+}
+
+.banner-text button{
+    background-color: rgba(240, 168, 62, 1);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border-radius: 5px;
+    /*align-self: center;*/
+    padding: 12px;
+    margin-left: 30%;
+}
+
+/*FOOTER*/
+
+.pie-pagina{
+    background: rgba(60, 35, 19, 1);
+    color: rgb(255, 255, 255);
+    padding: 15px 60px;
+}
+
+.pie-pagina-p{
+    background: rgba(34, 34, 34, 1);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+}

@@ -5,12 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Petshop</title>
 </head>
 
 <body>
     <header>
-        <div>
+        <div id="barra-superior">
             <ul>
                 <li>Grandes ofertas en comederos</li>
                 <li>Menú regional</li>
@@ -21,18 +27,18 @@
             </ul>
         </div>
 
-        <div>
+        <div id="menu-principal">
             <div>
-                <img src="./assets/logo.png" alt="Logo">
+                <img src="./assets/logo-header.png" alt="Logo">
             </div>
 
             <!--Menú principal-->
             <nav>
-                <ul>
-                    <li><a href="">Categorías</a></li>
-                    <li><a href="">Pets</a></li>
-                    <li><a href="">Nosotros</a></li>
-                    <li><a href="">Contactanos</a></li>
+                <ul type="none">
+                    <li><i class="fas fa-paw nav-huella"></i><a href="">Categorías</a></li>
+                    <li><i class="fas fa-paw nav-huella"></i><a href="">Pets</a></li>
+                    <li><i class="fas fa-paw nav-huella"></i><a href="">Nosotros</a></li>
+                    <li><i class="fas fa-paw nav-huella"></i><a href="">Contactanos</a></li>
                 </ul>
             </nav>
         </div>
@@ -41,12 +47,13 @@
     <main>
         <!--BANNER-->
         <section>
-            <div>
-                <img src="./assets/fondo.png" alt="Imagen background">
+            <div class="banner-img">
+                <div class="banner-text">
+                    <h2>¡Es un placer tenerte aquí!</h2>
+                    <p>¡Comederos en descuento!</p>
+                    <button>COMEDEROS</button>
+                </div>
             </div>
-            <p>¡Es un placer tenerte aquí!</p>
-            <p>¡Comederos en descuento!</p>
-            <button>COMEDEROS</button>
         </section>
 
         <!--PRODUCTOS-->
@@ -78,11 +85,30 @@
                 </div>
             </div>
         </section>
-
-        <!--FOOTER-->
-        <p>Todos los derechos reservados Front End</p>
-
     </main>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="pie-pagina">
+            <div>
+                <a href="#" target="_blank"><img src="./assets/location.png" alt="Icono Localidad"> Localidad</a>
+                <p>Calle - Provincia</p>
+            </div>
+            <div>
+                <a href="#" target="_blank"><img src="./assets/telefono.png" alt="Icono Teléfono"> Teléfono</a>
+                <p>Número de Teléfono</p>
+            </div>
+            <div>
+                <a href="#" target="_blank"><img src="./assets/email.png" alt="Icono Email"> Correo Electrónico</a>
+                <p>Dirección de Correo</p>
+            </div>
+            <div>
+                <img src="./assets/logo-footer.png" alt="Logo">
+            </div>
+        </div>
+
+        <p class="pie-pagina-p">Todos los derechos reservados Front End</p>
+    </footer>
 </body>
 
 </html>
