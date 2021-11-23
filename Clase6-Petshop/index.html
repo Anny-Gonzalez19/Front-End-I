@@ -17,14 +17,20 @@
 <body>
     <header>
         <div id="barra-superior">
-            <ul>
-                <li>Grandes ofertas en comederos</li>
-                <li>Menú regional</li>
-                <ul>
-                    <li>Español</li>
-                    <li>$ARG</li>
-                </ul>
-            </ul>
+            <p>Grandes ofertas en comederos</p>
+            <div>
+                <select id="barra-select">
+                    <option>Español</option>
+                    <option>Inglés</option>
+                    <option>Francés</option>
+                </select>
+
+                <select id="barra-select">
+                    <option>$ARG</option>
+                    <option>$COP</option>
+                    <option>$US</option>
+                </select>
+            </div>
         </div>
 
         <div id="menu-principal">
@@ -34,7 +40,7 @@
 
             <!--Menú principal-->
             <nav>
-                <ul type="none">
+                <ul type="none" id="menu-nav">
                     <li><i class="fas fa-paw nav-huella"></i><a href="">Categorías</a></li>
                     <li><i class="fas fa-paw nav-huella"></i><a href="">Pets</a></li>
                     <li><i class="fas fa-paw nav-huella"></i><a href="">Nosotros</a></li>
@@ -58,32 +64,40 @@
 
         <!--PRODUCTOS-->
         <section>
-            <div>
-                <img src="./assets/patita.png" alt="Imagen patita">
-            </div>
-            <h2>Productos Destacados</h2>
-            <div>
-                <a href="#">Comederos</a>
-                <a href="#">Accesorios</a>
-                <a href="#">Comida</a>
-            </div>
-            <div>
-                <div>
+            <section>
+                <div id="icono-cards">
+                    <img src="./assets/patita.png" alt="Imagen patita">
+                </div>
+
+                <h2 id="title-cards">Productos Destacados</h2>
+
+                <ul class="links-productos">
+                    <li><a href="#">Comederos</a></li>
+                    <li> - </li>
+                    <li><a href="#">Accesorios</a></li>
+                    <li> - </li>
+                    <li><a href="#">Comida</a></li>
+                </ul>
+            </section>
+
+
+            <section class="cards">
+                <article>
                     <img src="./assets/churrasquito.png" alt="Juguete Churrasquito">
                     <h3>Juguete Churrasquito</h3>
                     <p>$150</p>
-                </div>
-                <div>
+                </article>
+                <article>
                     <img src="./assets/comedero.png" alt="Comedero para perro">
                     <h3>Comedero para perro</h3>
                     <p>$250</p>
-                </div>
-                <div>
+                </article>
+                <article>
                     <img src="./assets/huesito.png" alt="Juguete Huesito">
                     <h3>Juguete Huesito</h3>
                     <p>$650</p>
-                </div>
-            </div>
+                </article>
+            </section>
         </section>
     </main>
 
@@ -102,7 +116,7 @@
                 <a href="#" target="_blank"><img src="./assets/email.png" alt="Icono Email"> Correo Electrónico</a>
                 <p>Dirección de Correo</p>
             </div>
-            <div>
+            <div id="logo-footer">
                 <img src="./assets/logo-footer.png" alt="Logo">
             </div>
         </div>
