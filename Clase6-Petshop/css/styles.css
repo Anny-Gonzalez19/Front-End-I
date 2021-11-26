@@ -175,17 +175,90 @@ html {
 }
 
 /****FOOTER****/
-
-#logo-footer {
+.suscribirse {
+  background-color: rgba(240, 168, 62, 1);
   display: flex;
-  justify-content: flex-end;
-  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.frase-suscribirse {
+  display: flex;
+  justify-content: space-around;
+}
+
+.frase-suscribirse img {
+  width: 40px;
+  height: 20px;
+}
+
+.frase-suscribirse p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.form-footer {
+  display: flex;
+}
+
+.suscribirse-input {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(160, 160, 160, 1);
+  font-size: 9px;
+  border-radius: 15px;
+  border: none;
+  width: 271px;
+  height: 40px;
+  padding-left: 15px;
+}
+
+.suscribirse-boton {
+  background-color: rgba(60, 35, 19, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 9px;
+  font-weight: bold;
+  border-radius: 15px;
+  border: none;
+  width: 70px;
+  height: 34px;
+  margin-top: 3px;
+  margin-right: 20px;
+  margin-left: 10px;
 }
 
 .pie-pagina {
+  display: flex;
+  justify-content: space-between;
   background: rgba(60, 35, 19, 1);
   color: rgb(255, 255, 255);
   padding: 15px 60px;
+}
+
+.location {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.phone {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.email {
+  display: flex;
+}
+
+.text-footer {
+  margin-left: 25px;
+}
+
+#logo-footer {
+  display: flex;
+  align-items: center;
 }
 
 .pie-pagina-p {
