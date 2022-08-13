@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Proyecto Final</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header id="menu-principal">
+        <div>
+            <img src="./assets/logo.svg" alt="Logo">
+        </div>
+
+        <!--Menú principal-->
+        <nav>
+            <ul type="none" id="menu-nav">
+                <li><a href="" class="enlaces">Pricing</a></li>
+                <li><a href="" class="enlaces">Product</a></li>
+                <li><a href="" class="enlaces">About Us</a></li>
+                <li><a href="" class="enlaces">Careers</a></li>
+                <li><a href="" class="enlaces">Community</a></li>
+            </ul>
+        </nav>
+
+        <button type="button" class="btn btn-primary button btn1">Get Started</button>
+
+        <div id="menu-hamburger">
+            <img src="./assets/icon-hamburger.svg" alt="menu-mobile">
+        </div>
+    </header>
+
+    <main>
+        <!-- Primera Sección: Home -->
+        <section id="section1">
+            <div id="section1-text">
+                <h1>Bring everyone together to build better products.</h1>
+                <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the large team
+                    goals
+                    in
+                    view
+                </p>
+                <div class="btn-principal">
+                    <button type="button" class="btn btn-primary button btn1">Get Started</button>
+                </div>
+            </div>
+            <div id="section1-img">
+                <img src="./assets/ilustracion.svg" alt="">
+            </div>
+        </section>
+
+        <!-- Segunda Sección: Sobre Nosotros -->
+        <section id="section2">
+            <article id="section2-text">
+                <h3>What´s different about Manage?</h3>
+                <p>Manage provides all the functionality your teas needs, without the complexity. Our software is
+                    tailor-made for modern digital product teams.</p>
+            </article>
+            <article id="section2-list">
+                <ol>
+                    <li class="list-items item1">
+                        <h3>Track company-wide progress</h3>
+                        <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the
+                            milestone level all the way done to the smallest of details. Never lose sight of the bigger
+                            picture again.</p>
+                    </li>
+                    <li class="list-items item2">
+                        <h3>Advance built-in reports</h3>
+                        <p>Set internal delivery estimates and track progress toward company goals. Our customisable
+                            dashboard helps you build out the reports you need to keep key stakeholders informed.</p>
+                    </li>
+                    <li class="list-items item3">
+                        <h3>Everything you need in one place</h3>
+                        <p>Stop jumping from one service to another to communicate, store files, track tasks and share
+                            documents. Manage offers an all-in-one team productivity solution.</p>
+                    </li>
+                </ol>
+            </article>
+        </section>
+
+        <!-- Tercera Sección: Testimonios -->
+        <section id="section3">
+            <h3>What they´ve said</h3>
+
+            <div id="testimonios">
+                <div class="box-container box-oculta">
+                    <div class="foto">
+                        <img src="./assets/avatar-anisha.png" alt="Foto de perfil">
+                    </div>
+                    <div class="box">
+                        <h3 class="name">Anisha Li</h3>
+                        <p class="mensaje">“Manage has supercharged our team´s workflow. The ability to maintain
+                            visibility
+                            on larger
+                            milestones
+                            at all times keeps everyone motivated.”</p>
+                    </div>
+                </div>
+
+                <div class="box-container">
+                    <div class="foto">
+                        <img src="./assets/avatar-ali.png" alt="Foto de perfil">
+                    </div>
+                    <div class="box">
+                        <h3 class="name">Ali Bravo</h3>
+                        <p class="mensaje">“We have been able to cancel so many other subscriptions since using manage.
+                            There ir no more
+                            cross-channel confusion and everyone is much more focused.”</p>
+                    </div>
+                </div>
+
+                <div class="box-container box-oculta">
+                    <div class="foto">
+                        <img src="./assets/avatar-richard.png" alt="Foto de perfil">
+                    </div>
+                    <div class="box">
+                        <h3 class="name">Richard Watts</h3>
+                        <p class="mensaje">“Manage allows us to provide structure and process. It keeps us organized and
+                            focused. I can´t
+                            stop
+                            recommending them to everyone i talk to!”</p>
+                    </div>
+                </div>
+            </div>
+            <div id="puntos">
+                <i class="fas fa-ellipsis-h carrusel"></i>
+            </div>
+            <div class="btn-center">
+                <button type="button" class="btn btn-primary button btn1">Get Started</button>
+            </div>
+        </section>
+
+        <!-- Cuarta Sección: Frase Final -->
+        <section id="frase-final">
+            <p>Simplify how your team works today.</p>
+            <button type="button" class="btn btn-primary button btn2">Get Started</button>
+        </section>
+    </main>
+
+    <footer id="pie-pagina">
+        <div class="icons">
+            <img src="./assets/logo_footer.svg" alt="Logo" id="logo-footer">
+            <div>
+                <a href="#" target="_blank"><img src="./assets/icon-facebook.svg" alt="" class="icon"></a>
+                <a href="#" target="_blank"><img src="./assets/icon-youtube.svg" alt="" class="icon"></a>
+                <a href="#" target="_blank"><img src="./assets/icon-twitter.svg" alt="" class="icon"></a>
+                <a href="#" target="_blank"><img src="./assets/icon-pinterest.svg" alt="" class="icon"></a>
+                <a href="#" target="_blank"><img src="./assets/icon-instagram.svg" alt="" class="icon"></a>
+            </div>
+        </div>
+        <div class="nav-footer">
+            <div class="col-1">
+                <a href="" class="links-footer">Home</a>
+                <a href="" class="links-footer">Pricing</a>
+                <a href="" class="links-footer">Product</a>
+                <a href="" class="links-footer">About Us</a>
+            </div>
+            <div class="col-2">
+                <a href="" class="links-footer">Careers</a>
+                <a href="" class="links-footer">Community</a>
+                <a href="" class="links-footer">Privacy Policy</a>
+            </div>
+        </div>
+        <div>
+            <form action="" method="post" class="form-footer">
+                <input type="email" placeholder="Update in your inbox..." required class="input-footer">
+                <input type="submit" value="Go" class="button btn1 btn-form">
+            </form>
+            <p id="copyright">Copyright 2020. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>

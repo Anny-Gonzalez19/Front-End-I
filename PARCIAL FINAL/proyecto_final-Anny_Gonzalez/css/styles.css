@@ -1,0 +1,515 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-image: url(../assets/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: 56vw -35vh;
+}
+
+/****HEADER****/
+/*****Navbar*****/
+#menu-principal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#menu-nav {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+
+#menu-nav > li {
+  margin-right: 20px;
+}
+
+.enlaces {
+  text-decoration: none;
+  color: rgba(36, 46, 82, 1);
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: none;
+  font-weight: 500;
+  font-size: 13.1806px;
+  line-height: 19px;
+  width: 134px;
+  height: 44px;
+}
+
+.btn1 {
+  background-color: rgba(243, 96, 59, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+#menu-hamburger {
+  display: none;
+}
+
+/****MAIN****/
+/******Primera Sección: Home******/
+main {
+  background-image: url(../assets/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: -40vw 140vh;
+  background-size: 60vw;
+}
+
+#section1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  margin-left: 30px;
+}
+
+#section1-text {
+  width: 35%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#section1-text > h1 {
+  font-weight: bold;
+  font-size: 58px;
+  letter-spacing: -0.035em;
+  color: #232c50;
+  margin-bottom: 20px;
+}
+
+#section1-text > p {
+  font-weight: 500;
+  font-size: 16.5584px;
+  line-height: 157.1%;
+  color: #000000;
+}
+
+#section1-img {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: auto;
+}
+
+.btn-principal {
+  margin-top: 10px;
+}
+
+/******Segunda Sección: Sobre Nosotros******/
+#section2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+/****** 2a) Párrafo ******/
+
+#section2-text {
+  width: 30%;
+  height: auto;
+}
+
+#section2-text > h3 {
+  color: rgba(35, 40, 81, 1);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 114.6%;
+  /* or 41px */
+  margin-bottom: 30px;
+}
+
+#section2-text > p {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 151.1%;
+  /* or 24px */
+  width: 90%;
+}
+
+/****** 2b) Lista ******/
+
+#section2-list {
+  width: 35%;
+  height: auto;
+}
+
+.list-items {
+  list-style: none;
+}
+
+.list-items::before {
+  width: 69px;
+  height: 43px;
+  background: rgba(243, 96, 59, 1);
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  border-radius: 30px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -80px;
+  margin-right: 10px;
+}
+
+.item1::before {
+  content: "01";
+}
+
+.item2::before {
+  content: "02";
+}
+
+.item3::before {
+  content: "03";
+}
+
+.list-items > h3 {
+  color: rgba(50, 56, 81, 1);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.015em;
+  margin-top: -35px;
+  margin-bottom: 10px;
+}
+
+.list-items > p {
+  color: rgba(179, 178, 183, 1);
+  font-weight: 500;
+  font-size: 16.2984px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  margin-bottom: 35px;
+}
+
+/******Tercera Sección: Testimonios******/
+#section3 {
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+#section3 > h3 {
+  text-align: center;
+  color: rgba(36, 46, 83, 1);
+  font-weight: bold;
+  font-size: 39.2143px;
+  line-height: 156.6%;
+  /* or 61px */
+  letter-spacing: -0.01em;
+  margin-bottom: 25px;
+}
+
+#testimonios {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.box-container {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.box {
+  padding: 40px;
+  background-color: rgb(255, 221, 221);
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -30px;
+}
+
+.foto > img {
+  width: 70px;
+  height: 70px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 16.0714px;
+  line-height: 156.6%;
+  /* or 25px */
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+
+.mensaje {
+  color: rgb(146, 146, 158);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 156.6%;
+  /* or 25px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
+
+#puntos {
+  display: none;
+}
+
+/******Cuarta Sección: Frase Final******/
+#frase-final {
+  background-color: rgba(243, 97, 60, 1);
+  background-image: url(../assets/bg-simplify-section-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: 11vw -22vh;
+  height: 224px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#frase-final > p {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.005em;
+  width: 438px;
+  height: 96px;
+}
+
+.btn2 {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(243, 96, 59, 1);
+}
+
+/****FOOTER****/
+
+#pie-pagina {
+  background-color: rgba(30, 30, 38, 1);
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 240px;
+  padding-top: 10px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#logo-footer {
+  margin-bottom: 70px;
+}
+
+.icon {
+  margin-right: 7px;
+}
+
+.nav-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3rem;
+}
+
+.nav-footer .col-1 {
+  width: auto;
+}
+
+.links-footer {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  display: block;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 14px;
+}
+
+.form-footer {
+  margin-bottom: 75px;
+  display: flex;
+}
+
+.input-footer {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(160, 160, 160, 1);
+  width: 201px;
+  height: 44px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 600;
+  font-size: 13.18px;
+  line-height: 19px;
+  padding-left: 12px;
+}
+
+.btn-form {
+  width: 63px;
+  height: 42px;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+.btn-form:hover {
+  background-color: rgb(255, 121, 143);
+  color: rgb(0, 0, 0);
+}
+
+#copyright {
+  color: rgba(140, 140, 148, 1);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: end;
+}
+
+@media (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*HEADER*/
+  #menu-nav {
+    display: none;
+  }
+  header .btn1 {
+    display: none;
+  }
+  #menu-hamburger {
+    display: block;
+  }
+  /*MAIN*/
+  /******Primera Sección: Home******/
+  #section1 {
+    flex-direction: column-reverse;
+  }
+  #section1-img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #section1-img > img {
+    width: 80%;
+  }
+  #section1-text {
+    text-align: center;
+    width: 90%;
+    margin-bottom: 40px;
+  }
+  #section1-text > h1 {
+    font-size: 30px;
+  }
+  .btn-principal {
+    display: flex;
+    justify-content: center;
+  }
+  /******Segunda Sección: Sobre Nosotros******/
+  #section2 {
+    flex-direction: column;
+  }
+  #section2-text {
+    width: 90%;
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+  #section2-text > p {
+    margin-left: 20px;
+  }
+  #section2-list {
+    width: 90%;
+    text-align: center;
+  }
+  .list-items::before {
+    margin-left: -30px;
+  }
+  .list-items {
+    text-align: left;
+  }
+  .list-items > h3 {
+    margin-left: 45px;
+    background-color: rgb(255, 221, 221);
+  }
+  /******Tercera Sección: Testimonios******/
+  .box-oculta {
+    display: none;
+  }
+  #puntos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  .carrusel {
+    font-size: x-large;
+  }
+  /******Cuarta Sección: Frase Final******/
+  #frase-final {
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    padding-bottom: 20px;
+    background-position: 5vw -15vh;
+  }
+  #frase-final > p {
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  /******FOOTER******/
+  #pie-pagina {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .form-footer {
+    position: relative;
+    top: 50px;
+  }
+  #nav-footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  .icons {
+    flex-direction: column-reverse;
+    margin-top: 40px;
+  }
+  #logo-footer {
+    margin-top: 50px;
+  }
+  .icon {
+    font-size: xx-large;
+    margin-right: 25px;
+  }
+  #copyright {
+    position: relative;
+    top: 360px;
+    text-align: center;
+  }
+}
